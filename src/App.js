@@ -9,8 +9,8 @@ class App extends React.Component {
       <div className="App">
       <header className="">
         <form className="measure center">
-          <input className="pa2 input-rest ba bg-transparent hover-bg-black hover-white w-100" type="text" placeholder="Enter Text" />
-          <button className="f4 fw6 ph0 mh0" type="submit">add</button>
+          <input className="b pa2 input-rest ba bg-transparent hover-bg-black hover-white w-100" type="text" placeholder="Enter Text" />
+          <button className="b pa2 input-rest ba bg-transparent hover-bg-black hover-white" type="submit">Add</button>
         </form>
       </header>
       </div>

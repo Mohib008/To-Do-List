@@ -4,86 +4,34 @@ body {
 
 .App {
   background-color: antiquewhite;
-  min-height: 800px;
+  min-height: 700px;
   width: 600px;
-  margin: 30px auto; 
+  margin: 30px auto;
+  text-align: center;
 }
 
-
-
-.ba {
-  border-style: solid;
-  border-width: 1px;
-}
-
-.b--black {
-  border-color: #000;
-}
-
-.b--transparent {
-  border-color: transparent;
-}
-
-.b {
-  font-weight: bold;
-  width: 200px;
-  height: 50px;
-  padding: auto;
-  margin: 20px;
+#to-do-form input{
+  background-color: rgb(29, 24, 24);
+  min-height: 60px;
+  width: 300px;
+  margin: 30px;
   font-size: 15px;
-}
-
-.fw6 {
-  font-weight: 600;
-}
-
-.input-reset {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-}
-
-.input-reset::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.black-80 {
-  color: rgba(0, 0, 0, .8);
-}
-
-.black {
-  color: #000;
-}
-
-.bg-transparent {
-  background-color: transparent;
-}
-
-.hover-white:hover {
+  border: none;
+  padding: 0 20px;
   color: #fff;
 }
-
-.hover-white:focus {
-  color: #fff;
+#to-do-form input:focuse,#to-do-form button:focus{
+  outline: none;
+}
+#to-do-form::placeholder{
+  color: cornflowerblue;
 }
 
-.hover-bg-black:hover {
-  background-color: #000;
-}
-
-.hover-bg-black:focus {
-  background-color: #000;
-}
-
-
-.measure {
-  max-width: 30em;
-}
-
-.pointer:hover {
+#to-do-form button {
+  height: 60px;
+  width: 70px;
+  border: none;
+  background-color: rgb(24, 20, 20);
   cursor: pointer;
+  color: #fff;
 }

@@ -7,6 +7,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 library.add(faTrash);
 
 
+
 class App extends Component {
   constructor(props) {
     super(props);

@@ -3,8 +3,8 @@ import './App.css';
 import ListItems from "./ListItems";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
-
-library.add(faTrash);
+import Logo from "./Components/Logo/Logo";
+library.add(faTrash);   
 
 
 
@@ -73,8 +73,12 @@ addItem(e) {
 
   render() {
     return(
+      <div style={{display: "flex"}}>
+        <Logo />
       <div className="App">
       <header>
+      <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-1 shadow-5 center">
+        <main className="pa4 black-80">
         <form id="to-do-form" onSubmit={this.addItem}>
           <input  type="text" placeholder="Enter Text"
           value={this.state.currentItem.text}
@@ -82,8 +86,11 @@ addItem(e) {
            />
           <button  type="submit">Add</button>
         </form>
+        </main>
+        </article>
       </header>
       <ListItems items={this.state.items} deleteItem = {this.deleteItem} setUpdate = {this.setUpdate}></ListItems>
+      </div>
       </div>
     )
   }

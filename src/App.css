@@ -1,9 +1,9 @@
 body {
- background-color: azure;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
 }
 
 .App {
-  background-color: antiquewhite;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
   min-height: 800px;
   width: 600px;
   margin: 30px auto;
